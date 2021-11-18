@@ -1,0 +1,24 @@
+
+{
+  "name": "dineshwedsindudatastore",
+  "description": "Guestbook for Wedding website of Dinesh Arun & Indumathi",
+  "version": "0.0.1",
+  "private": true,
+  "license": "tbd",
+  "author": "Dinesh Arun, Indumathi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinesharun/dineshwedsindudatastore.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "@google-cloud/datastore": "^6.6.0",
+    "cors": "^2.8.5"  
+  }
+}
